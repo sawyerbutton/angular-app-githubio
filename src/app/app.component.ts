@@ -19,4 +19,9 @@ export class AppComponent {
     }
 
   }
+
+  onWheelClick(e) {
+    // e.preventDefault();
+    console.log(e);
+  }
 }
